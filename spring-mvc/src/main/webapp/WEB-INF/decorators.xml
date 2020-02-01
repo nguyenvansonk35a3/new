@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- defaultdir tro ve thang master layout, vi thang con no su dung master lay out -->
+<decorators defaultdir="/decorators">  
+	<!-- Apply web teamplate -->
+	<decorator name="trang-chu" page="web.jsp">
+		<pattern>/trang-chu</pattern>
+	</decorator>
+	
+	<!-- Apply admin template -->
+	<decorator name="home" page="admin.jsp">
+		<pattern>/home</pattern>
+	</decorator>
+	
+</decorators>
